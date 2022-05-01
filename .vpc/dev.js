@@ -53912,7 +53912,7 @@ var require_client2 = __commonJS({
     config2.inlineSchemaHash = "47e438dde482ac871d3328e6c90175a2f5c236d570d7f85cccb70d7389c28d11";
     config2.inlineEnv = {
       parsed: {
-        DATABASE_URL: typeof global !== "undefined" && global["DATABASE_URL"] || process.env["DATABASE_URL"] || "prisma://aws-eu-central-1.prisma-data.com/?api_key=bzf99Xr5S4yWg8l_mUq6YI3r1lfQOmcKyLAQ8q_b1Kq3J68FWkbCIcDxl4n30xQS"
+        DATABASE_URL: typeof global !== "undefined" && global["DATABASE_URL"] || process.env["DATABASE_URL"] || "postgresql://moomintroll:9BLw6KGY-8p3XXCUjahdew@free-tier5.gcp-europe-west1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&options=--cluster%3Dmoomin-collector-3629"
       }
     };
     var PrismaClient2 = getPrismaClient2(config2);
