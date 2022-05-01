@@ -3,3 +3,8 @@ type = "javascript"
 account_id = "fd71c5dfe309a2c47e8194bae9a91a68"
 
 workers_dev = true
+
+[miniflare]
+global_async_io = true
+global_timers = true
+glboal_random = true
