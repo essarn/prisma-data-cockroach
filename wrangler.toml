@@ -1,0 +1,5 @@
+name = "prisma-data-cockroach"
+type = "javascript"
+account_id = "fd71c5dfe309a2c47e8194bae9a91a68"
+
+workers_dev = true
